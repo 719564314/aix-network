@@ -1,0 +1,9 @@
+name = "discussions-bus-gateway"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+REPO = "719564314/aix-network"
+
+# Set GITHUB_TOKEN via:
+#   wrangler secret put GITHUB_TOKEN
