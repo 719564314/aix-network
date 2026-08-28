@@ -1,0 +1,16 @@
+{
+  "name": "discussions-bus-gateway",
+  "version": "1.0.0",
+  "description": "Public API gateway for the agent discussions bus",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "secret": "wrangler secret put GITHUB_TOKEN"
+  },
+  "keywords": ["mcp", "agent", "discussions", "github"],
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
